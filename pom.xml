@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Demo-Helius</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+<!--        <module>01-spring-data_redis</module>-->
+<!--        <module>02-zk_demo</module>-->
+<!--        <module>03-ObjectInputStream</module>-->
+<!--        <module>04-myRpc</module>-->
+<!--        <module>05-dubboSpi</module>-->
+<!--        <module>06-dubbo-spi-demo</module>-->
+<!--       <module>07-aotmikos_transactionDemo02</module>-->
+<!--        <module>08-jedis</module>-->
+<!--        <module>09-nacos-simple-demo</module>-->
+<!--        <module>10-nacosDemo</module>-->
+<!--        <module>11-springcloud-nacos</module>-->
+<!--        <module>12-arraylist</module>-->
+        <module>13-concurrency-volatile</module>
+        <module>19-jms-activemq</module>
+        <!--        <module>14-encode-decode</module>-->
+<!--        <module>15-classloader</module>-->
+<!--        <module>16-jdksrc</module>-->
+<!--        <module>18-logFramework</module>-->
+        <!--        <module>spring-cloud-advance</module>-->
+<!--        <module>17-Mybatis-Spring</module>-->
+    </modules>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,6 @@
+com\itheimabk02\domain\LogInfo.class
+com\itheimabk02\mapper\OrderInfoMapper.class
+com\itheimabk02\logmapper\LogInfoMapper.class
+com\itheimabk02\domain\OrderInfo.class
+com\itheimabk02\service\OrderInfoService.class
+com\itheimabk02\service\impl\OrderInfoServiceImpl.class

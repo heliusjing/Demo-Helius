@@ -1,0 +1,5 @@
+# Project exclude paths
+/13-concurrency-volatile/target/
+/19-jms-activemq/activemq/target/
+/19-jms-activemq/spring-activemq-consumer/target/
+/19-jms-activemq/spring-activemq-producer/target/
